@@ -34,7 +34,7 @@ class BarangController extends Controller
 
     public function edit(Barang $barang)
     {
-        return view('barangs.edit', compact('barang'));
+        return view('admin.barangs.edit', compact('barang'));
     }
 
     public function update(Request $request, Barang $barang)

@@ -25,7 +25,6 @@ Route::get('admin/dashboard', function () {
 
 
 // Route data
-
 Route::resource('barangs', BarangController::class);
 
 // Route Ruangan
